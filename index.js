@@ -1,4 +1,4 @@
-/*bye bye guy
+//bye bye guy
 
 const {
 default: makeWASocket,
