@@ -17,7 +17,7 @@ const { cmd } = require('../command');
 cmd({
     pattern: "owner",
     react: "👑", // Reaction emoji when the command is triggered
-    alias: ["kerm"],
+    alias: ["igwe"],
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -49,7 +49,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             text: `This is the owner's contact: ${ownerName}`,
             contextInfo: {
-                mentionedJid: [ownerNumber.replace('+2416"338758') + '+24105730123@s.whatsapp.net'], // Mention the owner
+                mentionedJid: [ownerNumber.replace('+24160338758') + '+24105730123@s.whatsapp.net'], // Mention the owner
                 quotedMessageId: sentVCard.key.id // Reference the vCard message
             }
         }, { quoted: mek });

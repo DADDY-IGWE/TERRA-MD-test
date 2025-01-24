@@ -14,7 +14,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "update",
-    react: "🔄",
+    react: "🆙",
     desc: "Update folder from GitHub",
     category: "system",
     use: '.update',

@@ -17,7 +17,7 @@ const config = require('../config');
 
 cmd({
     pattern: "settings",
-    react: "🎛️",
+    react: "⚙️",
     alias: ["setting", "env"],
     desc: "Get bot's settings list.",
     category: "main",
