@@ -1,7 +1,7 @@
 {
-  "name": "TERRA-MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ IGWE",
-  "logo": "https://i.imgur.com/wg971vZ.jpeg",
+  "name": "TERRA-MD-V1",
+  "description": "fast and fun whatsapp bot made by me⚡️ CRAZY",
+  "logo": "https://i.imgur.com/4MOXJU3.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,13 +16,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.imgur.com/wg971vZ.jpeg"
+      "value": "https://i.imgur.com/4MOXJU3.jpeg"
     }, 
     
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "IM ONLINE MASTER"
+      "value": "_Hi bro am alive now🥷🏽🤝🏾._"
     },
     
     "PREFIX": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦『TERRA MD』✦"
+      "value": "【𝐓𝐄𝐑𝐑𝐀-𝐌𝐃 𝐕𝟏】"
     }, 
 
     "HEART_REACT": {
