@@ -42,7 +42,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
 *_Simply type the number corresponding to the option you'd like to choose._*`;
 
         // URL de l'image à envoyer
-        const imageUrl = 'https://i.ibb.co/j8hv83f/Manul-Ofc-X.jpg';
+        const imageUrl = 'https://i.imgur.com/UUFh2ux.jpeg';
 
         // Envoi de la liste avec l'image et la légende
         await conn.sendMessage(from, {

@@ -39,8 +39,6 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 *⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
 
      *${pushname}*
-     
-❁ ════ ❃•◯•❃ ════ ❁
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
  *welcome to terra md command list*
@@ -165,13 +163,10 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> ©️ IGWEBOTZ
+> ©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ IGWEBOTZ
 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ IGWEBOTZ*
-
-╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
 `
 
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})

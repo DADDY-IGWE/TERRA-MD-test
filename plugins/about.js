@@ -30,23 +30,23 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let about = `*╭┈───────────────•*
+let about = `*╭┈──────────────•*
 
 *👋 HELLO ${pushname}*
 
-*╰┈───────────────•*
-*╭┈───────────────•*
+*╰┈──────────────•*
+*╭┈─────────────•*
 *│ ◦* *creator: IGWE
 *│ ◦* *name: david*
 *│ ◦* *age: 17 yrs*
 *│ ◦* *city: Gabon*
 *│ ◦* *ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ᴅᴇᴠᴇʟᴘᴏʀ*
-*╰┈───────────────•*
+*╰┈─────────────•*
 
 *[ •T E R R A  M D - D E V• ]*
-*╭┈───────────────•*
-*│•LORD IGWE 🫧
-*╰┈───────────────•*
+*╭┈────────────•*
+*│• LORD IGWE 🫧
+*╰┈────────────•*
 
 `
 

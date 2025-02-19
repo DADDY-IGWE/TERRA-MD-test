@@ -88,7 +88,7 @@ l(e)
 cmd({
     pattern: "tagadmin",
     alais:["tagadmins"],
-    react: "🙀",
+    react: "🎙",
     desc: "Tags all the admins in the group.",
     category: "group",
     filename: __filename,
@@ -105,7 +105,7 @@ try{
             return reply('There are no admins in this group.');
         }
         // Create a message with all admin tags
-        let adminTagMessage = '*TAGGING ALL ADMINS IN THE GROUP 🔳:*\n\n';
+        let adminTagMessage = '*HI ADMIN TERRA CALL YOU :*\n\n';
         for (let admin of admins) {
             adminTagMessage += `@${admin.split('@')[0]}\n`;  // Mention each admin by their number
         }

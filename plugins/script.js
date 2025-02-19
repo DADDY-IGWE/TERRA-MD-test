@@ -22,7 +22,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let repo =`
-*╭──────────────●●*
+*╭──────────●●*
 > *BOT CREATOR:*
 *|* *IGWE TECH*
 
@@ -31,7 +31,7 @@ let repo =`
 
 > *SUPPORT CHANNEL:*
  | https://whatsapp.com/channel/0029Vb2VplFFCCoQsZKtVV24
-*╰──────────────●●►*
+*╰──────────●●*
 
 > *CREATED BY IGWETECH*
 `
@@ -51,7 +51,7 @@ title: 'TERRA MD',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/LORD-IGWE/TERRA-MD" ,
-thumbnailUrl: "https://files.catbox.moe/osriwc.jpg" ,
+thumbnailUrl: "https://i.imgur.com/392ueVP.jpeg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
