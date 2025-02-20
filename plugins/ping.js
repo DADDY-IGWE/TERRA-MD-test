@@ -1,15 +1,3 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
 
 const config = require('../config')
 let fs = require('fs')
@@ -18,7 +6,7 @@ const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "ping2",
-    react: "🤖",
+    react: "📟",
     alias: ["speed"],
     desc: "Check bot\'s ping",
     category: "main",
@@ -53,7 +41,7 @@ const startTime = Date.now()
         const message = await conn.sendMessage(from, { text: '*_Pinging..._*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*_terra Speed...☄️ : ${ping}ms*_`}, { quoted: message })
+        await conn.sendMessage(from, { text: `*_terra Speed⚡️... : ${ping}ms*📟_`}, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
