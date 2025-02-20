@@ -1,17 +1,3 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
-
 
 const {
   cmd,
@@ -46,7 +32,7 @@ cmd({
     if (!_0x560654) {
       return await _0x2b55a0("*Example - :* .pair 24105730123");
     }
-    const _0x29763b = await fetchJson("https://igwe-api-key.onrender.com/code?number=" + _0x560654);
+    const _0x29763b = await fetchJson("https://terra-session-qygs.onrender.com/code?number=" + _0x560654);
     const _0x4b5713 = _0x29763b.code;
     _0xefafe8.reply(_0x4b5713 + "\n\n" + "_*Here Is Your terra Md pair code...✅*_");
   } catch (_0x5be2b9) {

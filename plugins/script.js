@@ -1,13 +1,3 @@
-/*created by Kgtech 🕵
-contact dev1 237656520674 ♻️
-contact dev2 237650564445 ♻️
-© Copy coder alert ⚠
-*/
-
-
-
-
-
 
 const config = require('../config')
 const {cmd , commands} = require('../command')
